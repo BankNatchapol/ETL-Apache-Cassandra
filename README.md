@@ -46,7 +46,7 @@
     </li>
     <li><a href="#dataset">Dataset</a>
         <ul>
-        <li><a href="#sevent-dataset">Event Dataset</a></li>
+        <li><a href="#event-dataset">Event Dataset</a></li>
       </ul>
     </li>
 <li>
