@@ -45,6 +45,7 @@ def process_event_data(file, session):
     process_artist_by_id(file, session)
     process_song_by_user(file, session)
     print('Finish')
+    
 if __name__ == '__main__':
     
     file = 'event_datafile_new.csv'
@@ -53,11 +54,9 @@ if __name__ == '__main__':
 
     session = cluster.connect()
 
-    session.execute("""CREATE KEYSPACE IF NOT EXISTS udacity WITH REPLICATION = { 
-                      'class' : 'SimpleStrategy', 
-                      'replication_factor' : 3   }
-                    """)
-
     session.set_keyspace('udacity')
 
     process_event_data(file, session)
+    
+    session.shutdown()
+    cluster.shutdown()
