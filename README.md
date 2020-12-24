@@ -93,7 +93,7 @@ install package with requirements.txt
 ### ETL Processes
 - run python create_keyspace.py to create keyspace
 - run python etl.py to do ETL
-- 2.watch results in test.ipynb
+- watch results in test.ipynb
 
 <!-- CONTACT -->
 ## Contact
