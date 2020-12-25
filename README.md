@@ -46,7 +46,7 @@
     </li>
     <li><a href="#dataset">Dataset</a>
         <ul>
-        <li><a href="#song-dataset">Event Dataset</a></li>
+        <li><a href="#event-dataset">Event Dataset</a></li>
       </ul>
     </li>
 <li>
@@ -93,7 +93,7 @@ install package with requirements.txt
 ### ETL Processes
 - run python create_keyspace.py to create keyspace
 - run python etl.py to do ETL
-- 2.watch results in test.ipynb
+- watch results in test.ipynb
 
 <!-- CONTACT -->
 ## Contact
